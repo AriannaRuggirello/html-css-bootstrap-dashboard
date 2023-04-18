@@ -52,10 +52,17 @@ aside span{
 }
 
 #main_top{
+    color: white;
     background-color: #1b72e8;
     height: 90px;
 }
 
+.breadcrumb li{
+    padding-left: 10px;
+}
+.breadcrumb a{
+    color: white;
+}
 #main_bottom{
     background-color: aqua;
 }
