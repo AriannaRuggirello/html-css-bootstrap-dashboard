@@ -7,17 +7,36 @@ header img{
     max-width: 100%;
 }
 
-
+.fa-bell{
+    color: #ffc107;
+}
 /* main */
 .main_content_top{
     display: flex;
     height: calc(100vh - 50px);
 }
-
+/* aside */
 aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 150px;
-    background-color: darkgrey;
+    background-color: #051e34;
 }
+
+aside a{
+    color: white;
+    text-decoration: none;
+}
+aside li{
+    list-style: none;
+    margin-top: 20px;
+}
+
+aside span{
+    padding: 0 0 0 2rem;
+}
+
 
 #main_content_bottom{
     width: calc(100% - 150px );
