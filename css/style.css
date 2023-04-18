@@ -5,6 +5,7 @@ header{
 }
 header img{
     max-width: 100%;
+    max-height: 50px;
 }
 
 .fa-bell{
@@ -31,12 +32,18 @@ aside a{
 aside li{
     list-style: none;
     margin-top: 20px;
+    color: white;
 }
 
 aside span{
-    padding: 0 0 0 2rem;
+    padding-left: 2rem;
 }
 
+/* @media screen and (max-width:768px) {
+    aside{
+        width: 50px;
+    }
+} */
 
 #main_content_bottom{
     width: calc(100% - 150px );
