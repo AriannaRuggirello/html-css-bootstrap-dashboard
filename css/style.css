@@ -63,6 +63,30 @@ aside span{
 .breadcrumb a{
     color: white;
 }
+
+/* main bottom */
 #main_bottom{
     background-color: aqua;
 }
+
+/* .class{
+    background-color: #ffc107;
+    height: 100px;
+}
+
+.faq{
+    background-color: #1b72e8;
+    height: 100px;
+    margin-top: 100px;
+}
+
+.todo{
+    background-color: burlywood;
+    height: 100px;
+}
+
+.users{
+    background-color: chartreuse;
+    height: 100px;
+    margin-top: 100px;
+} */
