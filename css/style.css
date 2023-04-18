@@ -1,34 +1,32 @@
+/* header */
 header{
-   height: 70px;
-    background-color: pink;
+   height: 50px;
+    background-color: #f8f9fa;
+}
+header img{
+    max-width: 100%;
 }
 
-/* main{
-    height: calc(100vh - 70px);
-    background-color: green;
-} */
 
+/* main */
 .main_content_top{
     display: flex;
-    height: calc(100vh - 70px);
-    background-color: green;
-
-
+    height: calc(100vh - 50px);
 }
 
 aside{
-    width: 100px;
-    background-color: yellow;
+    width: 150px;
+    background-color: darkgrey;
 }
 
 #main_content_bottom{
-    width: calc(100% - 100px );
-    background-color: brown;
+    width: calc(100% - 150px );
     overflow: scroll;
+    background-color: lightgray;
 }
 
 #main_top{
-    background-color: blueviolet;
+    background-color: #1b72e8;
     height: 90px;
 }
 
