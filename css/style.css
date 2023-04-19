@@ -52,12 +52,25 @@ aside li{
     color: white;    
 }
 
-
+/* main content */
 
 #main_content_bottom{
     width: calc(100% - 150px );
     overflow: scroll;
     
+}
+
+#main_top{
+    color: white;
+    background-color: #1b72e8;
+    padding: 20px 0;
+    height: 100px;
+}
+@media screen and (max-width:375px) {
+    #main_top{
+        height: 220px;
+       
+    }
 }
 
 @media screen and (max-width:810px) {
@@ -73,13 +86,6 @@ aside li{
     }
 }
 
-#main_top{
-    color: white;
-    background-color: #1b72e8;
-    padding: 20px 0;
-    height: 100px;
-}
-
 .breadcrumb li{
     padding-left: 10px;
 }
@@ -92,13 +98,15 @@ aside li{
     border-radius: 20px;
 }
 /* offcanvas */
-.offcanvas{
+.offcanvas,.offcanvas-lg{
     --bs-offcanvas-width: 40%;
 }
+
+.offcanvas,.offcanvas-sm,.offcanvas-md{
+    --bs-offcanvas-width: 100%;
+
+}
 /* main bottom */
-/* #main_bottom{
-    background-color: white;
-} */
 
 .card{
     font-size: 12px;
