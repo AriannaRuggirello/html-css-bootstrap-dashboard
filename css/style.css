@@ -1,3 +1,13 @@
+section{
+    margin-top: 20px;
+}
+
+.label{
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
 /* header */
 header{
    height: 50px;
@@ -39,22 +49,38 @@ aside span{
     padding-left: 2rem;
 }
 
-/* @media screen and (max-width:768px) {
-    aside{
-        width: 50px;
-    }
-} */
 
 #main_content_bottom{
     width: calc(100% - 150px );
     overflow: scroll;
-    background-color: lightgray;
+    
 }
 
+@media screen and (max-width:810px) {
+    aside{
+        width: 50px;
+    }
+
+    aside span,li{
+        text-align: center;
+    }
+
+    #main_content_bottom{
+        width: calc(100% - 50px );
+    }
+}
+
+@media screen and (max-width:375px) {
+    #main_top{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
 #main_top{
     color: white;
     background-color: #1b72e8;
-    height: 90px;
+    height: 100px;
 }
 
 .breadcrumb li{
@@ -64,10 +90,15 @@ aside span{
     color: white;
 }
 
-/* main bottom */
-#main_bottom{
-    background-color: aqua;
+.blue{
+    background-color: #165bba;
+    border-radius: 20px;
 }
+
+/* main bottom */
+/* #main_bottom{
+    background-color: aqua;
+} */
 
 .card{
     font-size: 12px;
@@ -81,25 +112,19 @@ aside span{
     border-radius: 50%;
 }
 
+/* prossime classi */
+.avatar{
+    width: 20px;
+}
 
-/* .class{
+.done{
+    background-color: #198754;
+}
+
+.process{
     background-color: #ffc107;
-    height: 100px;
 }
 
-.faq{
-    background-color: #1b72e8;
-    height: 100px;
-    margin-top: 100px;
+.failed{
+    background-color: #dc3545;
 }
-
-.todo{
-    background-color: burlywood;
-    height: 100px;
-}
-
-.users{
-    background-color: chartreuse;
-    height: 100px;
-    margin-top: 100px;
-} */
