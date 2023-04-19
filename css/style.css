@@ -63,8 +63,8 @@ aside li{
 #main_top{
     color: white;
     background-color: #1b72e8;
-    padding-top: 20px;
-    height: 100px;
+    padding:20px 0;
+    
 }
 
 
@@ -75,12 +75,6 @@ aside li{
         padding-left:0;
 
     }
-
-    /* #main_top{
-        height: 200px;
-        padding: 0;
-       
-    } */
 
     #main_content_bottom{
         width: calc(100% - 50px );
@@ -104,6 +98,7 @@ aside li{
 .offcanvas{
     --bs-offcanvas-width: 50%;
 }
+
 @media screen and (max-width:810px) {
     .offcanvas{
         --bs-offcanvas-width: 100%;
@@ -139,4 +134,10 @@ aside li{
 
 .failed{
     background-color: #dc3545;
+}
+
+@media screen and (max-width:576px) {
+    .disappear{
+        display: none;
+    }
 }
