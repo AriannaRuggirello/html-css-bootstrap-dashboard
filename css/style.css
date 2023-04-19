@@ -66,12 +66,7 @@ aside li{
     padding: 20px 0;
     height: 100px;
 }
-@media screen and (max-width:375px) {
-    #main_top{
-        height: 220px;
-       
-    }
-}
+
 
 @media screen and (max-width:810px) {
     aside{
@@ -79,6 +74,11 @@ aside li{
         text-align: center;
         padding-left:0;
 
+    }
+
+    #main_top{
+        height: 200px;
+       
     }
 
     #main_content_bottom{
@@ -102,9 +102,12 @@ aside li{
     --bs-offcanvas-width: 40%;
 }
 
-.offcanvas-sm,.offcanvas-md{
+.offcanvas-sm{
     --bs-offcanvas-width: 100%;
+}
 
+.offcanvas-md{
+    --bs-offcanvas-width: 100%;
 }
 /* main bottom */
 
