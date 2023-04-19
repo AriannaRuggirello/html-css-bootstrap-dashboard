@@ -98,18 +98,18 @@ aside li{
     background-color: #165bba;
     border-radius: 20px;
 }
+
 /* offcanvas */
-.offcanvas-lg{
-    --bs-offcanvas-width: 40%;
+
+.offcanvas{
+    --bs-offcanvas-width: 50%;
+}
+@media screen and (max-width:810px) {
+    .offcanvas{
+        --bs-offcanvas-width: 100%;
+    }
 }
 
-.offcanvas-sm{
-    --bs-offcanvas-width: 100%;
-}
-
-.offcanvas-md{
-    --bs-offcanvas-width: 100%;
-}
 /* main bottom */
 
 .card{
