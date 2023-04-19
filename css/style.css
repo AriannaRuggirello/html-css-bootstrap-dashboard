@@ -28,26 +28,30 @@ header img{
 }
 /* aside */
 aside{
+    width: 150px;
+    background-color: #051e34;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 150px;
-    background-color: #051e34;
+    line-height: 40px;
+    padding-left: 40px;
 }
 
 aside a{
     color: white;
     text-decoration: none;
 }
-aside li{
-    list-style: none;
-    margin-top: 20px;
-    color: white;
+
+aside ul{
+    padding: 0;
+    margin:0;
 }
 
-aside span{
-    padding-left: 2rem;
+aside li{
+    list-style: none;
+    color: white;    
 }
+
 
 
 #main_content_bottom{
@@ -59,10 +63,9 @@ aside span{
 @media screen and (max-width:810px) {
     aside{
         width: 50px;
-    }
-
-    aside span,li{
         text-align: center;
+        padding-left:0;
+
     }
 
     #main_content_bottom{
@@ -70,17 +73,10 @@ aside span{
     }
 }
 
-@media screen and (max-width:375px) {
-    #main_top{
-        display: flex;
-        flex-direction: column;
-    }
-    
-}
 #main_top{
     color: white;
     background-color: #1b72e8;
-    height: 100px;
+    padding: 20px 0;
 }
 
 .breadcrumb li{
