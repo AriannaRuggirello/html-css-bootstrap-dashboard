@@ -98,11 +98,11 @@ aside li{
     border-radius: 20px;
 }
 /* offcanvas */
-.offcanvas,.offcanvas-lg{
+.offcanvas-lg{
     --bs-offcanvas-width: 40%;
 }
 
-.offcanvas,.offcanvas-sm,.offcanvas-md{
+.offcanvas-sm,.offcanvas-md{
     --bs-offcanvas-width: 100%;
 
 }
